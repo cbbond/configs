@@ -1,0 +1,2 @@
+app-containers/k3d ~amd64
+app-admin/tfenv ~amd64

@@ -1,0 +1,154 @@
+# package.use# required by media-libs/mesa-21.2.6::gentoo[-video_cards_r200,-video_cards_r600,-video_cards_r100,-video_cards_radeon,-video_cards_r300,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-libs/glu-9.0.2::gentoo
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/freeglut-3.2.1-r2::gentoo
+# required by app-text/mupdf-1.18.0-r4::gentoo[opengl]
+# required by net-print/cups-filters-1.28.10-r1::gentoo[pdf]
+# required by net-print/cups-2.3.3_p2-r3::gentoo
+# required by app-text/ghostscript-gpl-9.55.0-r1::gentoo[cups]
+>=x11-libs/libdrm-2.4.107 video_cards_radeon
+# required by sys-boot/os-prober-1.78-r1::gentoo
+# required by sys-boot/os-prober (argument)
+>=sys-boot/grub-2.06-r1 mount
+# required by www-client/firefox-91.4.0-r1::gentoo[system-libvpx]
+# required by www-client/firefox (argument)
+>=media-libs/libvpx-1.10.0 postproc
+# required by app-emulation/libvirt-7.7.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt (argument)
+>=net-dns/dnsmasq-2.85 script
+# required by sys-apps/flatpak-1.10.6::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pyparsing-2.4.7-r1 python_targets_python3_10
+# required by dev-python/setuptools_scm-6.3.2::gentoo
+>=dev-python/setuptools-59.8.0 python_targets_python3_10
+# required by dev-python/setuptools-59.8.0::gentoo
+# required by dev-python/packaging-21.3-r1::gentoo
+# required by dev-python/setuptools_scm-6.3.2::gentoo
+>=dev-python/certifi-3021.3.16-r1 python_targets_python3_10
+# required by dev-python/setuptools-59.8.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+>=dev-python/setuptools_scm-6.3.2 python_targets_python3_10
+# required by dev-python/setuptools_scm-6.3.2::gentoo
+# required by dev-python/setuptools-59.8.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+>=dev-python/packaging-21.3-r1 python_targets_python3_10
+# required by dev-python/setuptools_scm-6.3.2::gentoo
+# required by dev-python/setuptools-59.8.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+>=dev-python/tomli-2.0.0 python_targets_python3_10
+# required by dev-python/packaging-21.3-r1::gentoo
+# required by dev-python/sphinx-4.3.2::gentoo
+# required by dev-python/sphinxcontrib-applehelp-1.0.2::gentoo
+>=dev-python/pyparsing-3.0.6 python_targets_python3_10
+app-containers/docker -cli
+# required by dev-python/pyparsing-3.0.7-r1::gentoo
+# required by dev-python/packaging-21.3-r1::gentoo
+# required by dev-python/wheel-0.37.1-r1::gentoo
+# required by dev-python/setuptools_scm-6.4.1::gentoo
+# required by dev-python/importlib_metadata-4.10.1::gentoo
+# required by dev-python/sphinx-4.4.0::gentoo[python_targets_python3_9,-python_targets_python3_8]
+# required by dev-python/sphinxcontrib-applehelp-1.0.2::gentoo
+>=dev-python/installer-0.4.0_p20220124 python_targets_python3_10
+# required by dev-python/setuptools_scm-6.4.1::gentoo
+# required by dev-python/importlib_metadata-4.10.1::gentoo
+# required by dev-python/sphinx-4.4.0::gentoo[python_targets_python3_9,-python_targets_python3_8]
+# required by dev-python/sphinxcontrib-applehelp-1.0.2::gentoo
+>=dev-python/wheel-0.37.1-r1 python_targets_python3_10
+# required by dev-python/wheel-0.37.1-r1::gentoo
+# required by dev-python/setuptools_scm-6.4.1::gentoo
+# required by dev-python/importlib_metadata-4.10.1::gentoo
+# required by dev-python/sphinx-4.4.0::gentoo[python_targets_python3_9,-python_targets_python3_8]
+# required by dev-python/sphinxcontrib-applehelp-1.0.2::gentoo
+>=dev-python/flit_core-3.6.0-r2 python_targets_python3_10
+# required by sys-libs/compiler-rt-sanitizers-13.0.1::gentoo
+# required by sys-devel/clang-runtime-13.0.1::gentoo[compiler-rt,sanitize]
+# required by sys-devel/clang-13.0.1::gentoo
+# required by sys-devel/clang-common-13.0.1::gentoo
+>=virtual/libcrypt-2 abi_x86_32
+# required by virtual/libcrypt-2::gentoo
+# required by sys-libs/compiler-rt-sanitizers-13.0.1::gentoo
+# required by sys-devel/clang-runtime-13.0.1::gentoo[compiler-rt,sanitize]
+# required by sys-devel/clang-13.0.1::gentoo
+# required by sys-devel/clang-common-13.0.1::gentoo
+>=sys-libs/libxcrypt-4.4.27 abi_x86_32
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/appdirs-1.4.4-r2 python_targets_python3_10
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-3.7.0-r2 python_targets_python3_10
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-8.12.0-r1 python_targets_python3_10
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/ordered-set-4.1.0 python_targets_python3_10
+# required by dev-python/jaraco-text-3.7.0-r2::gentoo
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-4.1.1-r2 python_targets_python3_10
+# required by dev-python/jaraco-text-3.7.0-r2::gentoo
+# required by dev-python/setuptools-60.9.2::gentoo
+# required by dev-python/cython-0.29.28::gentoo
+# required by dev-python/lxml-4.7.1::gentoo
+# required by sys-apps/systemd-249.9::gentoo
+# required by sys-kernel/dracut-055-r4::gentoo
+# required by sys-kernel/gentoo-kernel-5.15.25::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-3.5.0-r2 python_targets_python3_10
+# required by dev-python/setuptools-60.10.0::gentoo
+# required by dev-python/pytz-2022.1::gentoo
+# required by dev-python/Babel-2.9.1::gentoo
+# required by dev-python/sphinx-4.4.0::gentoo
+# required by dev-python/sphinxcontrib-applehelp-1.0.2::gentoo
+>=dev-python/nspektr-0.3.0 python_targets_python3_10
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/m2crypto-0.38.0::gentoo
+# required by net-wireless/crda-4.14::gentoo
+# required by net-wireless/wpa_supplicant-2.10-r1::gentoo[crda]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-iwd,wifi]
+# required by app-misc/tracker-miners-3.2.1::gentoo[networkmanager]
+# required by app-misc/tracker-3.2.1::gentoo[miners]
+# required by gnome-base/nautilus-41.2::gentoo
+# required by app-text/evince-41.3::gentoo[nautilus]
+# required by gnome-extra/sushi-41.0::gentoo
+>=dev-python/gpep517-3 python_targets_python3_10
+# required by dev-util/bcc-0.24.0-r1::gentoo
+# required by dev-util/bcc (argument)
+>=dev-libs/libbpf-0.7.0 static-libs
+# required by net-analyzer/wireshark-3.6.3::gentoo[minizip]
+# required by net-analyzer/wireshark (argument)
+>=sys-libs/zlib-1.2.12-r2 minizip

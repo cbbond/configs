@@ -1,0 +1,31 @@
+# required by dev-ruby/vagrant_cloud-3.0.5::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/excon-0.89.0 ~amd64
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/rexml-3.2.5 ~amd64
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/hashicorp-checkpoint-0.1.5-r1 ~amd64
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/rubyzip-2.3.2 ~amd64
+# required by app-containers/docker-20.10.12-r1::gentoo[cli]
+# required by app-containers/docker (argument)
+=app-containers/docker-cli-20.10.12 ~amd64
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/vagrant_cloud-3.0.5 ~amd64
+# required by app-containers/docker-20.10.12-r1::gentoo
+# required by app-containers/docker (argument)
+=app-containers/containerd-1.5.7 ~amd64
+# required by dev-ruby/vagrant_cloud-3.0.5::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/excon-0.92.3 ~amd64
+# required by app-emulation/vagrant-2.2.18-r1::gentoo[ruby_targets_ruby27]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/rubyzip-2.3.2-r1 ~amd64
+# required by @golang-rebuild (argument)
+=dev-util/packer-1.7.10 ~amd64
